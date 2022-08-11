@@ -10,18 +10,18 @@ li {
     font-size: 25px;
 }
 
-.logo{
-    height: 100px;
-    text-align: center;
-    background-color: whitesmoke;
-    background-image: url("img/logo\ boots.jpg");
-    justify-content: space-around;
+.logo {
+    height             : 100px;
+    text-align         : center;
+    background-color   : whitesmoke;
+    background-image   : url("img/logo\ boots.jpg");
+    justify-content    : space-around;
     background-position: center;
-    background-repeat: no-repeat;
-    display         : flex;
-    border          : 1px solid #dddddd;
-    cursor          : pointer;
-    border-radius   : 4px;
+    background-repeat  : no-repeat;
+    display            : flex;
+    border             : 1px solid #dddddd;
+    cursor             : pointer;
+    border-radius      : 4px;
 }
 
 .tp {
@@ -133,11 +133,6 @@ li {
     text-transform: uppercase;
 }
 
-.slider-product-one-content-item-text p {
-    color      : #919191;
-    line-height: 21px;
-    margin     : 9px 0;
-}
 
 .slider-product-one-content-item-text h3 {
     display     : flex;
@@ -192,12 +187,12 @@ li {
 }
 
 .btn {
-    border-radius: 15px;
-    display      : flex;
-    padding      : 10px 20px;
-    background   : linear-gradient(to right, #c72092, #6c14d0);
-    color        : #f6f6f6;
-    text-decoration   : none;
+    border-radius  : 15px;
+    display        : flex;
+    padding        : 10px 20px;
+    background     : linear-gradient(to right, #c72092, #6c14d0);
+    color          : #f6f6f6;
+    text-decoration: none;
 }
 
 .slider-product-one-content-item a {
@@ -415,13 +410,17 @@ footer .footer-main .tag .search-bar button {
     height         : 77%;
     background     : rgba(0, 0, 0, 0.6);
     color          : #ffffff;
-    font-family    : 'Quicksand', sans-serif;
     display        : flex;
+    font-family    : 'Quicksand', sans-serif;
     flex-direction : column;
-    align-items    : center;
+    align-items    : left;
     justify-content: center;
     opacity        : 0;
     transition     : opacity 0.25s;
+}
+
+.image__overlay p {
+    font-size: small;
 }
 
 .image__overlay--blur {
@@ -448,10 +447,5 @@ footer .footer-main .tag .search-bar button {
 .image__title {
     font-size  : 32px;
     font-weight: bold;
-    color: pink;
-}
-
-.image__description {
-    font-size : 14px;
-    margin-top: 4px;
+    color      : pink;
 }
